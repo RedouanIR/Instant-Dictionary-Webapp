@@ -11,5 +11,3 @@ class Definition:
         result = tuple(df.loc[df['word'] == self.term]['definition'])
         return result
 
-d = Definition(term='sun')
-print(d.get())
